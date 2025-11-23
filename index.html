@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pooja Chinnadurai — Portfolio</title>
+  <style>
+    :root{ --maxw:900px; --accent:#111; --muted:#666; --card:#fafafa }
+    body{ font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; 
+          background:#f3f4f6; color:#111; margin:0; padding:24px; display:flex; justify-content:center; }
+    .wrap{ width:100%; max-width:var(--maxw); background:#fff; border-radius:10px; padding:28px; box-shadow:0 6px 18px rgba(15,23,42,0.06) }
+    header{ display:flex; gap:20px; align-items:center }
+    img.photo{ width:120px; height:120px; object-fit:cover; border-radius:8px; border:1px solid #e6e6e6 }
+    h1{ margin:0; font-size:24px }
+    p.lead{ margin:6px 0 0; color:var(--muted) }
+    .btn{ display:inline-block; margin-top:10px; padding:8px 12px; border-radius:6px; text-decoration:none; background:var(--accent); color:#fff; font-size:14px }
+    .section{ margin-top:22px }
+    .section h2{ margin:0 0 10px 0; font-size:18px; border-bottom:2px solid #eee; padding-bottom:6px }
+    .card{ background:var(--card); padding:14px; border-radius:8px; margin-top:12px; border:1px solid #f0f0f0 }
+    .meta{ color:var(--muted); font-size:13px }
+    dl{ margin:0 }
+    dt{ font-weight:600; margin-top:10px }
+    dd{ margin:0 0 8px 0; color:var(--muted) }
+    footer{ margin-top:26px; font-size:13px; color:var(--muted) }
+    @media (max-width:560px){ header{ flex-direction:column; align-items:flex-start } img.photo{ width:96px; height:96px } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header / Contact -->
+    <header>
+      <img class="photo" src="photo.jpg" alt="Pooja Chinnadurai photo">
+      <div>
+        <h1>Pooja C (Pooja Chinnadurai)</h1>
+        <p class="lead">Electronics & Communication Engineer — Embedded Systems & IoT</p>
+        <p class="meta">Krishnagiri • 9994699147 • <a href="mailto:poojarasi72@gmail.com">poojarasi72@gmail.com</a></p>
+        <p class="meta">LinkedIn: <a href="https://www.linkedin.com/in/poojachinnadurai" target="_blank">poojachinnadurai</a></p>
+        <a class="btn" href="Final_resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+      </div>
+    </header>
+
+    <!-- Summary -->
+    <section class="section">
+      <h2>Summary</h2>
+      <div class="card">
+        <p>
+          A highly motivated Electronics and Communication Engineer with strong expertise in Embedded Systems and Internet of Things (IoT). 
+          Proficient in Python and C, with a solid foundation in IT concepts. Dedicated, adaptable, and eager to contribute to innovative projects 
+          in both core and IT domains.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <h2>Education</h2>
+      <div class="card">
+        <dl>
+          <dt>Vel Tech University</dt>
+          <dd>B.Tech — Electronics and Communication Engineering · GPA: 8.04</dd>
+
+          <dt>Sri Vijay Vidyalaya School</dt>
+          <dd>Higher Secondary · Percentage: 87.47%</dd>
+
+          <dt>Cambridge School</dt>
+          <dd>Secondary · Percentage: 87%</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section">
+      <h2>Experience</h2>
+      <div class="card">
+        <strong>Yuzhan Technology Pvt Ltd (Foxconn)</strong>
+        <p class="meta">Graduate Apprentice Trainee — Quality Department</p>
+        <p>
+          Part of the DM244 project in Apple display manufacturing. Conducted visual and functional inspections of display modules, identified defects, 
+          ensured compliance with Apple quality standards, collaborated with engineers and production teams for root cause analysis, contributed to process 
+          improvements that reduced rework and improved yield, and maintained inspection records following SOPs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="card">
+        <dl>
+          <dt>Programming languages</dt><dd>Python, C</dd>
+          <dt>Embedded systems</dt><dd>Microcontrollers, sensors and actuators</dd>
+          <dt>Communication protocols</dt><dd>UART, I2C, SPI, TCP, USB</dd>
+          <dt>IoT expertise</dt><dd>Device connectivity and automation</dd>
+          <dt>AI fundamentals</dt><dd>Integration in embedded applications</dd>
+          <dt>Software skills</dt><dd>DSA, DBMS, OS, SQL</dd>
+          <dt>Soft skills</dt><dd>Leadership, teamwork, analytical problem-solving, communication</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Projects (from your resume exactly) -->
+    <section class="section">
+      <h2>Projects</h2>
+
+      <div class="card">
+        <strong>Smart Energy Monitoring System</strong>
+        <p class="meta">Objective: Smart energy monitoring system for real-time, accurate and automated tracking of energy consumption in residential, commercial or industrial environments.</p>
+        <p><strong>Tools / Technologies Used:</strong> ESP32, Blynk app, Embedded C Programming</p>
+      </div>
+
+      <div class="card">
+        <strong>Smart Medicine Dispenser System</strong>
+        <p class="meta">Objective: Automated medicine dispensing system for the elderly, reducing risks of under/overdose.</p>
+        <p><strong>Tools / Technologies Used:</strong> ESP32, Blynk app, photoelectric sensor, Servo motor, oled display, Embedded C Programming</p>
+      </div>
+
+      <div class="card">
+        <strong>Smart Roll-Call System</strong>
+        <p class="meta">Objective: Automated attendance system using RFID technology.</p>
+        <p><strong>Tools / Technologies Used:</strong> Arduino, RFID Sensors, Embedded C Programming</p>
+      </div>
+
+      <div class="card">
+        <strong>Solar Power Trash Compactor</strong>
+        <p class="meta">Objective: Solar-powered system for waste compression, increasing bin capacity.</p>
+        <p><strong>Tools / Technologies Used:</strong> solar panels, sensors, and embedded systems</p>
+      </div>
+
+      <div class="card">
+        <strong>Smart Home Automation System</strong>
+        <p class="meta">Objective: Control of home appliances automatically.</p>
+        <p><strong>Tools / Technologies Used:</strong> electronic components (sensors, ICs, PCBs, battery)</p>
+      </div>
+
+    </section>
+
+    <!-- Certifications / Languages / Hobbies -->
+    <section class="section">
+      <h2>Certifications</h2>
+      <div class="card">
+        <ul>
+          <li>Python Course Completion Certificate — Simplilearn</li>
+          <li>Embedded systems course completion — Simplilearn</li>
+          <li>AI Masterclass Completion — NOVITECH</li>
+          <li>Inplant Training Completion — TESCOM</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Hobbies & Languages</h2>
+      <div class="card">
+        <p>Hobbies: Participating in hackathons and technology-driven competitions; exploring IoT & AI; attending workshops and online courses.</p>
+        <p>Languages: English, Tamil, Telugu</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Contact: <a href="mailto:poojarasi72@gmail.com">poojarasi72@gmail.com</a> • Phone: 9994699147</p>
+      <p style="margin-top:6px">Resume source: uploaded file (kept as <code>Final_resume.pdf</code>) — local path on this session: <code>/mnt/data/Final_resume.pdf</code></p>
+    </footer>
+  </div>
+</body>
+</html>
+
